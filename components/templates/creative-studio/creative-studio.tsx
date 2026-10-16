@@ -2,10 +2,7 @@
 
 import { cn } from "@/lib/utils";
 
-import { About } from "./about";
-import { Features } from "./features";
 import { almarai, instrumentSerif } from "./fonts";
-import { Footer } from "./footer";
 import { Hero } from "./hero";
 
 const CREATIVE_STUDIO_CSS = `
@@ -31,9 +28,6 @@ export default function CreativeStudio() {
     >
       <style dangerouslySetInnerHTML={{ __html: CREATIVE_STUDIO_CSS }} />
       <Hero />
-      <About />
-      <Features />
-      <Footer />
     </div>
   );
 }
